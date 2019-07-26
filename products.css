@@ -1,0 +1,14 @@
+.card {
+    margin-left: 40pt;
+    
+}
+.item-list {
+    display: inline-block;
+    padding: 30px;
+    
+}
+
+.card-text {
+    max-width: 260px;
+}
+
