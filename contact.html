@@ -1,20 +1,145 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./lib/css/home.css">
+  <link rel="stylesheet" href="./lib/css/navfoot.css">
+  <link rel="stylesheet" href="fontawesome/css/font-awesome.css">
+  <link rel="stylesheet" href="./lib/css/contact.css">
+
+  <title>DRIP INTL.</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#"><span class="logo-text">DRIP</span><span class="logo-text2">INTL.</span> <span
+        class="sr-only">(current)</span></a></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="product.html" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Tops</a>
+            <a class="dropdown-item" href="#">Bottoms</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Shoes</a>
+          </div>
+        </li>
+        <li className="cart">
+          <a 
+          className="cart-click"
+          href="cart.html"
+          >
+          <img src="https://cdn0.iconfinder.com/data/icons/shopping-icons-5/100/Cart-512.png" alt="cart" height= "50px"></img>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <h1 class="contacth1">Contact</h1>
+
+
+<div class="commentBoxes">
+  <form>
+    <form>
+      <ul>
+        <li>
+      <div class="form-name">
+        <div class="col">
+          <label for="exampleInputEmail1">Name:</label>
+          <input type="text" class="form-control" placeholder="First name" required>
+        </div>
+        </li>
+
+
+        <li>
+        <div class="form-email">
+          <label for="exampleInputEmail1">Email address:</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Enter email" required>
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        </li>
+
+        <li>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Comments:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </li>
+        </ul>
+    </form>
+  </div>
+
+
+
+
+    <!--footer-->
+    <section class="footer">
+
+      <div class="footer-content">
+        <div class="footer-section-about">
+          <h1><span class="logo-text">DRIP</span><span class="logo-text2">INTL.</span></h1>
+          <p>Drip Intl. brought to you by Le'John McNeeley, created to bring the most high class streetwear for the
+            right
+            prices</p>
+          <div class="conact">
+            <span><i class="phone"></i> 313-244-5837 | mlejohn21@gmail.com</span>
+
+          </div>
+
+        </div>
+        <div class="footer-section-links">
+
+          <br>
+
+          <ul>
+            <li><a href="#"><i class="fa fa-twitter"></i></li></a>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          &copy; DRIP INTL. | Designed by Le'John McNeeley
+        </div>
+      </div>
+    </section>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+</body>
+
 </html>
